@@ -14,7 +14,7 @@ let IncludeReplaceWebpackPlugin = require('include-replace');
 
 // Require this inside your plugins array
 new IncludeReplaceWebpackPlugin({
-    src: './html',
+    src: './src',
     dist: './dist'
 });
 ```
@@ -26,7 +26,7 @@ let IncludeReplaceWebpackPlugin = require('include-replace');
 mix.webpackConfig({
     plugins: [
         new IncludeReplaceWebpackPlugin({
-            src: './html',
+            src: './src',
             dist: './dist'
         })
     ],
@@ -54,7 +54,7 @@ mix.browserSync({
 .webpackConfig({
     plugins: [
         plugin = new IncludeReplaceWebpackPlugin({
-            src: './html',
+            src: './src',
             dist: './dist'
         })
     ],
