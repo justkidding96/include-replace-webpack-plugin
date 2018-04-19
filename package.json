@@ -1,0 +1,24 @@
+{
+  "name": "include-replace-webpack-plugin",
+  "version": "2.0.0",
+  "description": "Custom include and replace plugin for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:justkidding96/include-replace-webpack-plugin.git"
+  },
+  "keywords": [
+    "Webpack",
+    "Include",
+    "Replace"
+  ],
+  "author": "Rowdy Klijnsmit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justkidding96/include-replace-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/justkidding96/include-replace-webpack-plugin#readme"
+}
