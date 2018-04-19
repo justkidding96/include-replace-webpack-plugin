@@ -3,7 +3,7 @@ Use `@@include('partial.html')` inside your HTML files and include the partial a
 Or give custom data to the partial and show it with `@@show('title')`.
 
 **Example:**
-`@@include('partial.html', {"title": "My custom title"}) // in index.html`
+`@@include('partial.html', {"title": "My custom title"}) // in index.html`  
 `@@show('title') // in partial.html`
 
 ### Installation
@@ -32,7 +32,7 @@ mix.webpackConfig({
     ],
 });
 ```
-**With Laravel mix + browsersync**
+**For Laravel mix + browsersync**
 ``` javascript
 let IncludeReplaceWebpackPlugin = require('include-replace');
 let plugin;
