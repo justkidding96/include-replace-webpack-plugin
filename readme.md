@@ -2,7 +2,7 @@
 Use `@@include('partial.html')` inside your HTML files and include the partial and replace the content of it.
 Or give custom data to the partial and show it with `@@show('title')`.
 
-**Example:**
+**Example:**  
 `@@include('partial.html', {"title": "My custom title"}) // in index.html`  
 `@@show('title') // in partial.html`
 
